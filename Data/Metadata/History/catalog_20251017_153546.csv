@@ -1,0 +1,4 @@
+table_name,file_path,record_count,schema_hash,schema_json,last_updated,dq_status,version
+customers,data/raw/customers.csv,5,bb0343682f36d4a473b5ad4b2fedd956,"{""customer_id"": ""int64"", ""name"": ""object"", ""email"": ""object"", ""signup_date"": ""object""}",2025-10-17 15:35:46,FAIL,20251017_153546
+orders,data/raw/orders.csv,5,b56db85879b02cfc566090f7277dc0fc,"{""order_id"": ""int64"", ""customer_id"": ""int64"", ""order_amount"": ""float64"", ""order_date"": ""object""}",2025-10-17 15:35:46,FAIL,20251017_153546
+products,data/raw/products.csv,5,f3bf35adcb80baa0b4348565ad6a7d50,"{""product_id"": ""int64"", ""product_name"": ""object"", ""price"": ""int64""}",2025-10-17 15:35:46,PASS,20251017_153546
