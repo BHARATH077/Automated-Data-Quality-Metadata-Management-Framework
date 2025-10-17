@@ -1,0 +1,4 @@
+table_name,file_path,record_count,last_updated,schema_status,last_validated,data_quality_status,last_quality_check
+customers,data/raw/customers.csv,5,2025-10-17 15:35:45,PASS,2025-10-17 15:35:45,FAIL,2025-10-17 15:35:46
+orders,data/raw/orders.csv,5,2025-10-17 15:35:45,PASS,2025-10-17 15:35:45,FAIL,2025-10-17 15:35:46
+products,data/raw/products.csv,5,2025-10-17 15:35:45,PASS,2025-10-17 15:35:45,PASS,2025-10-17 15:35:46
