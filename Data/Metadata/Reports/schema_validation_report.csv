@@ -1,0 +1,4 @@
+table_name,status,missing_cols,extra_cols,type_mismatches,validated_at
+customers,PASS,,,,2025-10-17 15:35:45
+orders,PASS,,,,2025-10-17 15:35:45
+products,PASS,,,,2025-10-17 15:35:45

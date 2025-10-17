@@ -1,0 +1,10 @@
+table_name,check_type,result,details
+customers,NULL_CHECK,FAIL,{'email': 1}
+customers,DUPLICATE_CHECK,PASS,0 duplicate rows
+orders,NULL_CHECK,FAIL,{'order_amount': 1}
+orders,DUPLICATE_CHECK,PASS,0 duplicate rows
+orders,REFERENTIAL_INTEGRITY,FAIL,1 invalid customer_id not found in customers
+orders,NEGATIVE_VALUE_CHECK,PASS,{}
+products,NULL_CHECK,PASS,{}
+products,DUPLICATE_CHECK,PASS,0 duplicate rows
+products,NEGATIVE_VALUE_CHECK,PASS,{}
